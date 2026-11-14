@@ -1,0 +1,21 @@
+meta {
+  name: items
+  type: http
+  seq: 3
+}
+
+post {
+  url: https://api.kitek-pg.ru/api/marketplace/items
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "id": 1794638363264,
+    "title": "молоко ананаса",
+    "description": "молочко от ананаса",
+    "price": 700,
+    "imageUrl": "https://example.com/moloko.jpg"
+  }
+}
